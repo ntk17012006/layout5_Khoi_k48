@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-block Example</title>
+    <style>
+        body{
+            width: 100%;
+            height:150px;
+            
+        }
+        .block{
+            width: 100%;   /*rộng*/
+            height: 100%; /*dọc*/
+            line-height: 100px;
+        }
+        .outer-layout {
+            display: block; /* Kích hoạt flexbox */
+            background-color: rgb(186, 218, 246);
+            width: 100%;
+            height: 900px;
+            padding: 2%;
+            font-size: 25px;
+        }
+        .pp{
+            display: flex;
+            justify-content: space-between;
+        }
+        .left {
+            text-align: left;
+        }
+        .right {
+            text-align: right;
+        }
+        
+        .rd{
+            background-image:url(https://khoinguonsangtao.vn/wp-content/uploads/2022/08/hinh-nen-phong-canh-thien-nhien-viet-nam.jpg);
+           background-size: cover; /* Giữ tỷ lệ và lấp đầy */
+            background-position: center; /* Căn ảnh ở giữa */
+            text-align: center;
+            font-size: 30px;
+            width: 100%;
+            height: 300px;
+            color: #fbff04;
+        }
+        .bl{
+            background-image:url(https://th.bing.com/th/id/OIP.MUFnGRY_j23JOt-RnuvwIgHaEK?rs=1&pid=ImgDetMain);
+           background-size: cover; /* Giữ tỷ lệ và lấp đầy */
+            background-position: center; /* Căn ảnh ở giữa */
+            width: 31%;
+            float: left;
+            height: 200px;
+            margin: 15px; 
+            background-position: center; /* Căn ảnh ở giữa */
+        }
+        .db{
+            background-image:url(https://img.thuthuatphanmem.vn/uploads/2018/10/26/anh-dep-cau-rong-da-nang-viet-nam_055418962.jpg);
+           background-size: cover; /* Giữ tỷ lệ và lấp đầy */
+            background-position: center; /* Căn ảnh ở giữa */
+            width: 31%;
+            float: left;
+            height: 200px;
+            margin: 15px; 
+            background-position: center; /* Căn ảnh ở giữa */
+        }
+        .vt{
+            text-align: center;
+            background-image:url(https://statics.vinpearl.com/canh-dep-viet-nam-11_1634999614.jpg);
+           background-size: cover; /* Giữ tỷ lệ và lấp đầy */
+            background-position: center; /* Căn ảnh ở giữa */
+            width: 31%;
+            float: left;
+            height: 200px;
+            margin: 15px; 
+            background-position: center; /* Căn ảnh ở giữa */
+            
+        }
+        .ad{
+            width: 100%;
+            height: 70px;
+            font-size: 25px;
+            color: rgb(100, 58, 6);
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div class="outer-layout">
+    <div class="pp">
+        <div class="left"><b>QUÊ HƯƠNG VIỆT NAM</b></div>
+        <div class="right"><a href="">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Địa Danh</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Liên Hệ</a></div></div>
+    <div class="block rd"><h2><i> Việt Nam</i></h3></div>
+    <div class="block ad">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ruộng Bậc Thang&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cầu Rồng&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cầu Vàng</div>
+    <div class="block bl"></div>
+    <div class="block db"></div>
+    <div class="block vt"></div>
+</div>
+</body>
+</html>
